@@ -1,0 +1,79 @@
+.container-fluid{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.jumbotron-fluid{
+    background-color: black;
+}
+
+#carouselExampleIndicators{
+    width: 55%;
+    display:flex;
+    margin: auto;
+}
+a{
+    text-decoration:none;
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.lead{
+    text-align: center;
+    color: white;
+}
+.form-group{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    color: white;
+}
+.btn-secondary{
+    display: flex;
+    margin: auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100%  / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+  }
+
+  #pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+  }
+  li{
+      list-style: none;
+  }
+  #scholar{
+      width: 40%;
+      display: flex;
+      text-align: center;
+  }
+  #online {
+      width: 40%;
+  }
+  #person{
+      width: 40%;
+  }
+  h6{
+      text-align: center;
+      color: white;
+  }
+  .container-fluid{
+      background-color: black;
+  }
+  .white{
+      background-color: silver;
+  }

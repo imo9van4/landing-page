@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Landing Page</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="wrapper">
+              <br><br>
+              <!--Navbar-->
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-secondary">
+                      <img src="brownco-logo.png" alt="Company Logo" height="75px" width="75px">
+                        <a class="navbar-brand" href="https://thebrownco.net">Brown Company Website</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                                    </button>         
+                    </nav><br>
+                        <h1>Fire Pump Academy</h1>
+                        <hr class = "white"><h6>5418 Pirrone Rd | Salida, CA</h6>
+                           <!--Fluid Jumbotron-->
+                        <div class="jumbotron jumbotron-fluid">
+                              <div class= "container">
+                              <h1 class="display-4">Welcome to the FPA</h1>
+                              <p class="lead">FPA is brought to you by The Brown Company</p>
+                              </div>
+                            </div>
+                                  <!--Carousel-->
+                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                      <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                      </ol>
+                                      <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="2126.jpg" class="d-block w-100" alt="Packaged System">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="IMG_2871.JPG" class="d-block w-100" alt="Pump">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="download-2.jpg" class="d-block w-100" alt="Pump">
+                                        </div>
+                                        <div class="carousel-item">
+                                          <img src="download-4.jpg" class="d-block w-100" alt="Pump">
+                                        </div>
+                                      </div>
+                                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                      </a>
+                                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                      </a>
+                                    </div><br><hr class = "white">
+                                    <!--Register-->
+                                    <form>
+                                      <h1>Register for a course today</h1><br>
+                                      <div class="form-group">
+                                        <label for="exampleFormControlInput1">Email address*</label>
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Phone number*</label>
+                                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="(555) 555-5555">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="exampleFormControlSelect2">Course(s) you are interested in*</label>
+                                        <input type= "text" textarea class="form-control" id="exampleFormControlSelect2" rows="6"></div>
+                                    </form>
+                                    
+                                    <br><button type="button" class="btn btn-secondary">Send me information</button><br>
+                                    <hr class = "white">
+                                    <!--Pricing-->
+                                    <section id="pricing">
+                                      <div class="product" id="online">
+                                        <div class="level">Online Course</div>
+                                        <h2>$200</h2>
+                                        <ul>
+                                          <li>Take from home.</li>
+                                          <li>Receive lecture notes and PowerPoint slides in PDF format.</li>
+                                          <li>Access to chat room to discuss concepts and study before exam.</li>
+                                          <li>Cheapest option.</li>
+                                        </ul>
+                                        <button class="btn btn-warning">Select</button>
+                                      </div>
+                                      <div class="product" id="scholar">
+                                        <div class="level">Scholar Package</div>
+                                        <h2>$1200</h2>
+                                        <ol>
+                                          <li>Includes all six courses at a discounted price when bought at once.</li>
+                                          <li>Become a master of commercial fire protection technology in your own time.</li>
+                                          <li>Retake the exam for each course up to three times.</li>
+                                          <li>Can be done online or in-person.</li>
+                                        </ol>
+                                        <button class="btn btn-warning">Select</button><br><br><br>
+                                      </div>
+                                      <div class="product" id="person">
+                                        <div class="level">In-Person Course<br>(Most Popular)</div>
+                                        <h2>$450</h2>
+                                        <ul>
+                                          <li>Classroom setting.</li>
+                                          <li>Hands-on training for fire pump maintenance.</li>
+                                          <li>Lunch is provided.</li>
+                                          <li>Several lab stations set up for effective studying.</li>
+                                        </ul>
+                                        <button class="btn btn-warning">Select</button>
+                                      </div>
+                                     
+                            
+                          
+                    </div>
+                </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" 
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>
