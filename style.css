@@ -1,13 +1,10 @@
 .container-fluid{
-    margin-left: 50px;
-    margin-right: 50px;
+    display: flex;
+    margin: auto;
 }
-
 .jumbotron-fluid{
     background-color: black;
 }
-
-
 #carouselExampleIndicators{
     width: 55%;
     display:flex;
@@ -16,6 +13,9 @@
 a{
     text-decoration:none;
     color: white;
+}
+a:hover{
+    color: red;
 }
 h1{
     text-align: center;
@@ -64,9 +64,13 @@ h1{
   }
   #online {
       width: 40%;
+      display: flex;
+      text-align: center;
   }
   #person{
       width: 40%;
+      display: flex;
+      text-align: center;
   }
   h6{
       text-align: center;
