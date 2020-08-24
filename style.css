@@ -2,6 +2,9 @@
     display: flex;
     margin: auto;
 }
+.container{
+    margin-bottom: 90px;
+}
 .jumbotron-fluid{
     background-color: black;
 }
@@ -13,6 +16,7 @@
 a{
     text-decoration:none;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 a:hover{
     color: red;
@@ -20,6 +24,7 @@ a:hover{
 h1{
     text-align: center;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 .lead{
     text-align: center;
@@ -61,20 +66,24 @@ h1{
       text-align: center;
       border: 1px solid gold;
       border-radius: 15px;
+      font-family: 'Open Sans', sans-serif;
   }
   #online {
       width: 40%;
       display: flex;
-      text-align: center;    
+      text-align: center; 
+      font-family: 'Open Sans', sans-serif;   
   }
   #person{
       width: 40%;
       display: flex;
-      text-align: center;    
+      text-align: center;  
+      font-family: 'Open Sans', sans-serif;  
   }
   h6{
       text-align: center;
       color: white;
+      font-family: 'Open Sans', sans-serif;
   }
   .container-fluid{
       background-color: black;
