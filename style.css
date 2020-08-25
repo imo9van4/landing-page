@@ -6,9 +6,11 @@
     margin-bottom: 90px;
 }
 .jumbotron-fluid{
+    display: flex;
+    align-items: center;
     background-color: black;
 }
-#carouselExampleIndicators{
+#main{
     width: 55%;
     display:flex;
     margin: auto;
